@@ -1,0 +1,82 @@
+.skills
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills .title
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.skills .title h1
+{
+    text-align: center;
+    font-size: 60px;
+}
+
+.skills .content
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.skills .content .skillsbox
+{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+.skills .content .skillsbox .skill
+{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.skills .content .skillsbox h1
+{
+    font-size: 40px;
+    margin: 15px auto;
+    color: #20060A;
+}
+
+.skills .content .skillsbox .icons
+{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills .content .skillsbox .icons img
+{
+    width: 100px;
+    height: 100px;
+    margin: 15px 15px;
+}
+
+.skills .content .skillsbox .divider
+{
+    height: 3px;
+    width: 80%;
+    margin: 15px auto;
+    border-top: 3px solid black;
+}

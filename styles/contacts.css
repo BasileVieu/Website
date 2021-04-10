@@ -1,0 +1,38 @@
+.contacts
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts .title
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contacts .title h1
+{
+    text-align: center;
+    font-size: 60px;
+}
+
+.contacts .content
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contacts .content img
+{
+    width: 125px;
+    height: 125px;
+    padding: 20px;
+}

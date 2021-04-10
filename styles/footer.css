@@ -1,0 +1,11 @@
+footer
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: #20060A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}

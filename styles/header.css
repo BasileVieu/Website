@@ -1,0 +1,30 @@
+header
+{
+    height: 100vh;
+    background-color: #20060A;
+}
+
+.header .presentation
+{
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header .presentation .pres-text
+{
+    position: absolute;
+    left: 10vw;
+    top: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header .presentation h1
+{
+    color: antiquewhite;
+    font-size: 100px;
+    font-weight: 600;
+}
