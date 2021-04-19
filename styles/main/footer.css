@@ -2,7 +2,7 @@ footer
 {
     margin-top: 5vh;
     margin-bottom: 5vh;
-    color: #20060A;
+    color: rgb(30, 30, 30);
     display: flex;
     justify-content: center;
     align-items: center;

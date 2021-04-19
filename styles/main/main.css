@@ -60,7 +60,7 @@ li a
 
 li a:hover
 {
-    color: #20060A;
+    color: rgb(30, 30, 30);
     background-color: antiquewhite;
 }
 
@@ -74,7 +74,7 @@ li a:hover
 .anchor-top a
 {
     display: block;
-    color: #20060A;
+    color: rgb(30, 30, 30);
     background-color: antiquewhite;
     text-align: center;
     text-decoration: none;
@@ -87,5 +87,5 @@ li a:hover
 .anchor-top a:hover
 {
     color: antiquewhite;
-    background-color: #20060A;
+    background-color: rgb(30, 30, 30);
 }

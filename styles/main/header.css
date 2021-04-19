@@ -1,13 +1,13 @@
 header
 {
     height: 100vh;
-    background-color: #20060A;
+    background-color: rgb(30, 30, 30);
 }
 
 .header .presentation
 {
     height: 100vh;
-    background-image: url("../images/bg.jpg");
+    background-image: url("../../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
