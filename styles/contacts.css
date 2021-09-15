@@ -1,0 +1,58 @@
+.contacts
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts .title
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contacts .title h1
+{
+    text-align: center;
+}
+
+.contacts .content
+{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (orientation: portrait)
+{
+    .contacts .title h1
+    {
+        font-size: 5vw;
+    }
+
+    .contacts .content img
+    {
+        width: 10vw;
+        height: 10vw;
+        padding: 1vw;
+    }
+}
+
+@media (orientation: landscape)
+{
+    .contacts .title h1
+    {
+        font-size: 5vh;
+    }
+
+    .contacts .content img
+    {
+        width: 10vh;
+        height: 10vh;
+        padding: 1vh;
+    }
+}

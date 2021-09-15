@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: center;
     align-items: center;
 }
 
@@ -17,7 +18,6 @@
 .about .title h1
 {
     text-align: center;
-    font-size: 60px;
 }
 
 .about .content
@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-content: center;
     align-items: center;
 }
 
@@ -41,22 +42,33 @@
 
 .about .content .text
 {
-    width: 60%;
-    font-size: 20px;
+    width: 80%;
     font-weight: 900;
     line-height: 150%;
 }
 
-@media screen and (max-width: 800px)
+@media (orientation: portrait)
 {
-    .about .content
-    {
-        font-size : 15px;
-        line-height: 100%;
-    }
-
     .about .title h1
     {
-        font-size: 25px;
+        font-size: 5vw;
+    }
+
+    .about .content .text
+    {
+        font-size: 2vw;
+    }
+}
+
+@media (orientation: landscape)
+{
+    .about .title h1
+    {
+        font-size: 5vh;
+    }
+
+    .about .content .text
+    {
+        font-size: 2vh;
     }
 }

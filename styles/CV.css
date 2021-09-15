@@ -18,12 +18,11 @@
 .CV .title h1
 {
     text-align: center;
-    font-size: 60px;
 }
 
 .CV .content
 {
-    width: 30vw;
+    width: 70%;
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: flex;
@@ -43,7 +42,6 @@
 .CV .content .link a
 {
     text-align: center;
-    font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     color: red;
@@ -51,6 +49,32 @@
 
 .CV .content .link img
 {
-    width: 30px;
-    height: 30px;
+    width: 2vh;
+    height: 2vh;
+}
+
+@media (orientation: portrait)
+{
+    .CV .title h1
+    {
+        font-size: 5vw;
+    }
+
+    .CV .content .link a
+    {
+        font-size: 2vw;
+    }
+}
+
+@media (orientation: landscape)
+{
+    .CV .title h1
+    {
+        font-size: 5vh;
+    }
+
+    .CV .content .link a
+    {
+        font-size: 2vh;
+    }
 }
