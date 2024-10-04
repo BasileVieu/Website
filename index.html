@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <a id="top"></a>
+        <a id="top"></a>
 
     <div class="anchor-top">
         <a href="#top">Top</a>
@@ -20,7 +20,8 @@
             <li class="menuElement"><a href="#CV">CV</a></li>
             <li class="menuElement"><a href="#about">About</a></li>
             <li class="menuElement"><a href="#skills">Skills</a></li>
-            <li class="menuElement"><a href="#group-projects">Group projects</a></li>
+            <li class="menuElement"><a href="#pro-projects">Professional projects</a></li>
+            <li class="menuElement"><a href="#school-projects">School projects</a></li>
             <li class="menuElement"><a href="#personal-projects">Personal projects</a></li>
             <li class="menuElement"><a href="#contacts">Contacts</a></li>
         </ul>
@@ -50,11 +51,11 @@
             <div class="content">
                 <div class="link">
                     <img src="images/download.png" alt="CV-icon">
-                    <a href="images/CV%20FR.jpg" download="BasileVieu_CV_FR">Français</a>
+                    <a href="images/CV%20FR.pdf" target="_blank">Français</a>
                 </div>
                 <div class="link">
                     <img src="images/download.png" alt="CV-icon">
-                    <a href="images/CV%20EN.jpg" download="BasileVieu_CV_EN">English</a>
+                    <a href="images/CV%20EN.pdf" target="_blank">English</a>
                 </div>
             </div>
         </div>
@@ -73,7 +74,7 @@
                 <div class="text">
                     <p>Hi</p>
                     <br>
-                    <p>My name is Basile Vieu, I'm 23 and I recently finished my training as a programmer at Créajeux.</p>
+                    <p>My name is Basile Vieu, I'm 26 and I am a gameplay programmer with a diploma from Créajeux.</p>
                     <br>
                     <p>I've always found the creativity that developers show interesting. So I too wanted to create and thus entertain.</p>
                     <br>
@@ -81,7 +82,7 @@
                     <br>
                     <p>This makes it easier for the player to become emotionally involved in the story and thus to retain vivid memories of the game.</p>
                     <br>
-                    <p>Thanks to my training at Créajeux, I also acquired skills in AI programming, tools, network and engine.</p>
+                    <p>Thanks to my training at Créajeux, I also acquired skills in AI programming, tools, and engine.</p>
                 </div>
             </div>
         </div>
@@ -120,7 +121,6 @@
                     <div class="icons">
                         <img src="images/softwares/unreal.png" alt="unreal">
                         <img src="images/softwares/unity.png" alt="unity">
-                        <img src="images/softwares/sfml.png" alt="sfml">
                     </div>
                 </div>
                 <div class="skillsbox">
@@ -141,64 +141,106 @@
     </section>
 
     <div class="divider"></div>
-
-    <section id="group-projects">
-        <link rel="stylesheet" href="styles/group-projects.css">
-
-        <div class="group-projects">
+    
+    <section id="pro-projects">
+        <link rel="stylesheet" href="styles/pro-projects.css">
+        
+        <div class="pro-projects">
             <div class="title">
-                <h1>Group projects</h1>
+                <h1>Professional projects</h1>
             </div>
             <div class="content">
-                <div class="slide fade" style="display: block;">
+                <div class="slidePro fade" style="display: block;">
+                    <div class="txt">
+                        <h1>Hot Lap Racing</h1>
+                        <p>Awaken the champion in you!
+                        Hot Lap Racing is a racing game in which you can drive powerful racing cars which made the history of motorsport, from GT to Single seaters.<br>Compete against your friends and other players in local or online mode to try and win all the championships.</p>
+                    </div>
+                    <a href="https://www.zerogamesstudios.com/hlr">
+                        <img src="images/Professional Projects/Hot Lap Racing.jpg" alt="Hot Lap Racing">
+                    </a>
+                </div>
+                <div class="slidePro fade">
+                    <div class="txt">
+                        <h1>F1 Mobile Racing</h1>
+                        <p>Take your place in the world’s biggest motorsport with F1® Mobile Racing,<br>an official free-to-play mobile game of the FIA FORMULA ONE WORLD CHAMPIONSHIP™.</p>
+                    </div>
+                    <a href="https://www.edengames.com/games/f1-mobile">
+                        <img src="images/Professional Projects/F1 Mobile Racing.jpg" alt="F1 Mobile Racing">
+                    </a>
+                </div>
+
+                <a class="prev" onclick="plusSlideProPro(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlidePro(1)">&#10095;</a>
+
+                <div class="dotsbox">
+                    <span class="dotPro" onclick="currentSlidePro(1)"></span>
+                    <span class="dotPro" onclick="currentSlidePro(2)"></span>
+                </div>
+            </div>
+        </div>
+        <script src="SlideShowPro.js"></script>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="school-projects">
+        <link rel="stylesheet" href="styles/school-projects.css">
+
+        <div class="school-projects">
+            <div class="title">
+                <h1>School projects</h1>
+            </div>
+            <div class="content">
+                <div class="slideSchool fade" style="display: block;">
                     <div class="txt">
                         <h1>Acteon</h1>
                         <p>You play as a golem who awakens after millennia to protect the remains of his civilization from looters.</p>
                     </div>
                     <a href="https://dunkel-studio.itch.io/acteon">
-                        <img src="images/acteon.jpg" alt="acteon">
+                        <img src="images/School Projects/acteon.jpg" alt="acteon">
                     </a>
                 </div>
-                <div class="slide fade">
+                <div class="slideSchool fade">
                     <div class="txt">
                         <h1>Silent Sea</h1>
                         <p>You wake up, alone, as a member of the Sentinelle in this empty vessel, but filled with mysteries.</p>
                     </div>
                     <a href="https://dunkel-studio.itch.io/silent-sea">
-                        <img src="images/silent sea.jpg" alt="silent sea">
+                        <img src="images/School Projects/silent sea.jpg" alt="silent sea">
                     </a>
                 </div>
-                <div class="slide fade">
+                <div class="slideSchool fade">
                     <div class="txt">
                         <h1>Insecure</h1>
                         <p>Explore the city, talk to the citizens and end the tyranny of TSC.</p>
                     </div>
                     <a href="https://jaeger-81.itch.io/insecure">
-                        <img src="images/insecure.jpg" alt="insecure">
+                        <img src="images/School Projects/insecure.jpg" alt="insecure">
                     </a>
                 </div>
-                <div class="slide fade">
+                <div class="slideSchool fade">
                     <div class="txt">
                         <h1>Gallius</h1>
                         <p>Play as a magician, thief or knight to defeat Remus and his army.</p>
                     </div>
                     <a href="https://jaeger-81.itch.io/gallius">
-                        <img src="images/gallius.png" alt="gallius">
+                        <img src="images/School Projects/gallius.png" alt="gallius">
                     </a>
                 </div>
 
-                <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlide(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlideSchool(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlideSchool(1)">&#10095;</a>
 
                 <div class="dotsbox">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dotSchool" onclick="currentSlideSchool(1)"></span>
+                    <span class="dotSchool" onclick="currentSlideSchool(2)"></span>
+                    <span class="dotSchool" onclick="currentSlideSchool(3)"></span>
+                    <span class="dotSchool" onclick="currentSlideSchool(4)"></span>
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="SlideShowSchool.js"></script>
     </section>
 
     <div class="divider"></div>
@@ -213,34 +255,12 @@
             <div class="content">
                 <div class="project">
                     <div class="project-title">
-                        <h1>Bot Discord</h1>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="project-content">
-                        <a href="DiscordBot.html">
-                            <img src="images/personalProjects/DiscordBot.jpg" alt="DiscordBot">
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-title">
                         <h1>Website</h1>
                     </div>
                     <div class="divider"></div>
                     <div class="project-content">
                         <a href="Website.html">
-                            <img src="images/personalProjects/Website.jpg" alt="Website">
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-title">
-                        <h1>Planet Generator</h1>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="project-content">
-                        <a href="PlanetGenerator.html">
-                            <img src="images/personalProjects/PlanetGenerator.jpg" alt="PlanetGenerator">
+                            <img src="images/Personal Projects/Website.jpg" alt="Website">
                         </a>
                     </div>
                 </div>
@@ -251,7 +271,7 @@
                     <div class="divider"></div>
                     <div class="project-content">
                         <a href="Unity.html">
-                            <img src="images/personalProjects/Unity.jpg" alt="Unity">
+                            <img src="images/Personal Projects/Unity.jpg" alt="Unity">
                         </a>
                     </div>
                 </div>

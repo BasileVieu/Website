@@ -1,4 +1,4 @@
-.group-projects
+.school-projects
 {
     margin-left: 15vw;
     margin-right: 15vw;
@@ -9,18 +9,18 @@
     align-items: center;
 }
 
-.group-projects .title
+.school-projects .title
 {
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
 
-.group-projects .title h1
+.school-projects .title h1
 {
     text-align: center;
 }
 
-.group-projects .content
+.school-projects .content
 {
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -31,19 +31,19 @@
     position: relative;
 }
 
-.group-projects .content .slide
+.school-projects .content .slideSchool
 {
     display: none;
     overflow: hidden;
 }
 
-.group-projects .content .slide img
+.school-projects .content .slideSchool img
 {
     width: 100%;
     height: 100%;
 }
 
-.group-projects .content .prev, .group-projects .content .next
+.school-projects .content .prev, .school-projects .content .next
 {
     position: absolute;
     cursor: pointer;
@@ -52,22 +52,22 @@
     user-select: none;
 }
 
-.group-projects .content .prev
+.school-projects .content .prev
 {
     left: 0;
 }
 
-.group-projects .content .next
+.school-projects .content .next
 {
     right: 0;
 }
 
-.group-projects .content .prev:hover, .group-projects .content .next:hover
+.school-projects .content .prev:hover, .school-projects .content .next:hover
 {
     color: #3498db;
 }
 
-.group-projects .content .dotsbox
+.school-projects .content .dotsbox
 {
     position: absolute;
     left: 50%;
@@ -76,19 +76,19 @@
     text-align: center;
 }
 
-.group-projects .content .dotsbox .dot
+.school-projects .content .dotsbox .dotSchool
 {
     display: inline-block;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.group-projects .content .dotsbox .active, .group-projects .content .dotsbox .dot:hover
+.school-projects .content .dotsbox .active, .school-projects .content .dotsbox .dotSchool:hover
 {
     border-color: #3498db;
 }
 
-.group-projects .content .fade
+.school-projects .content .fade
 {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -98,17 +98,17 @@
 
 @media (orientation: portrait)
 {
-    .group-projects .title h1
+    .school-projects .title h1
     {
         font-size: 5vw;
     }
 
-    .group-projects .content .slide img
+    .school-projects .content .slideSchool img
     {
         border-radius: 5vw;
     }
 
-    .group-projects .content .prev, .group-projects .content .next
+    .school-projects .content .prev, .school-projects .content .next
     {
         top: calc(50% - 1.5vw);
         font-size: 3vw;
@@ -116,12 +116,12 @@
         padding-right: 2vw;
     }
 
-    .group-projects .content .dotsbox
+    .school-projects .content .dotsbox
     {
         bottom: 2vw;
     }
 
-    .group-projects .content .dotsbox .dot
+    .school-projects .content .dotsbox .dotSchool
     {
         width: 1.5vw;
         height: 1.5vw;
@@ -148,17 +148,17 @@
 
 @media (orientation: landscape)
 {
-    .group-projects .title h1
+    .school-projects .title h1
     {
         font-size: 5vh;
     }
 
-    .group-projects .content .slide img
+    .school-projects .content .slideSchool img
     {
         border-radius: 5vh;
     }
 
-    .group-projects .content .prev, .group-projects .content .next
+    .school-projects .content .prev, .school-projects .content .next
     {
         top: calc(50% - 1.5vh);
         font-size: 3vh;
@@ -166,12 +166,12 @@
         padding-right: 2vh;
     }
 
-    .group-projects .content .dotsbox
+    .school-projects .content .dotsbox
     {
         bottom: 2vh;
     }
 
-    .group-projects .content .dotsbox .dot
+    .school-projects .content .dotsbox .dotSchool
     {
         width: 1.5vh;
         height: 1.5vh;
@@ -272,7 +272,7 @@
     font-weight: bold;
 }
 
-.slider img
+.slideSchoolr img
 {
     transform: scale(1.2, 1.2);
     -webkit-animation-name: zooming;

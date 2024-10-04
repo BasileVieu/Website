@@ -31,13 +31,13 @@
     position: relative;
 }
 
-.pro-projects .content .slide
+.pro-projects .content .slidePro
 {
     display: none;
     overflow: hidden;
 }
 
-.pro-projects .content .slide img
+.pro-projects .content .slidePro img
 {
     width: 100%;
     height: 100%;
@@ -76,14 +76,14 @@
     text-align: center;
 }
 
-.pro-projects .content .dotsbox .dot
+.pro-projects .content .dotsbox .dotPro
 {
     display: inline-block;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.pro-projects .content .dotsbox .active, .pro-projects .content .dotsbox .dot:hover
+.pro-projects .content .dotsbox .active, .pro-projects .content .dotsbox .dotPro:hover
 {
     border-color: #3498db;
 }
@@ -103,7 +103,7 @@
         font-size: 5vw;
     }
 
-    .pro-projects .content .slide img
+    .pro-projects .content .slidePro img
     {
         border-radius: 5vw;
     }
@@ -121,7 +121,7 @@
         bottom: 2vw;
     }
 
-    .pro-projects .content .dotsbox .dot
+    .pro-projects .content .dotsbox .dotPro
     {
         width: 1.5vw;
         height: 1.5vw;
@@ -153,7 +153,7 @@
         font-size: 5vh;
     }
 
-    .pro-projects .content .slide img
+    .pro-projects .content .slidePro img
     {
         border-radius: 5vh;
     }
@@ -171,7 +171,7 @@
         bottom: 2vh;
     }
 
-    .pro-projects .content .dotsbox .dot
+    .pro-projects .content .dotsbox .dotPro
     {
         width: 1.5vh;
         height: 1.5vh;
@@ -272,7 +272,7 @@
     font-weight: bold;
 }
 
-.slider img
+.slidePror img
 {
     transform: scale(1.2, 1.2);
     -webkit-animation-name: zooming;
