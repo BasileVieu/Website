@@ -1,0 +1,308 @@
+.pro-projects
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.pro-projects .title
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.pro-projects .title h1
+{
+    text-align: center;
+}
+
+.pro-projects .content
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.pro-projects .content .slide
+{
+    display: none;
+    overflow: hidden;
+}
+
+.pro-projects .content .slide img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.pro-projects .content .prev, .pro-projects .content .next
+{
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.1s;
+    user-select: none;
+}
+
+.pro-projects .content .prev
+{
+    left: 0;
+}
+
+.pro-projects .content .next
+{
+    right: 0;
+}
+
+.pro-projects .content .prev:hover, .pro-projects .content .next:hover
+{
+    color: #3498db;
+}
+
+.pro-projects .content .dotsbox
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    text-align: center;
+}
+
+.pro-projects .content .dotsbox .dot
+{
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pro-projects .content .dotsbox .active, .pro-projects .content .dotsbox .dot:hover
+{
+    border-color: #3498db;
+}
+
+.pro-projects .content .fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@media (orientation: portrait)
+{
+    .pro-projects .title h1
+    {
+        font-size: 5vw;
+    }
+
+    .pro-projects .content .slide img
+    {
+        border-radius: 5vw;
+    }
+
+    .pro-projects .content .prev, .pro-projects .content .next
+    {
+        top: calc(50% - 1.5vw);
+        font-size: 3vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .pro-projects .content .dotsbox
+    {
+        bottom: 2vw;
+    }
+
+    .pro-projects .content .dotsbox .dot
+    {
+        width: 1.5vw;
+        height: 1.5vw;
+        border: 0.3vw solid #fff;
+        margin: 0 1vw;
+    }
+
+    .txt
+    {
+        letter-spacing: 0.3vw;
+        line-height: 3vw;
+    }
+
+    .txt h1
+    {
+        margin-bottom: 2vw;
+    }
+
+    .txt p
+    {
+        font-size: 2vw;
+    }
+}
+
+@media (orientation: landscape)
+{
+    .pro-projects .title h1
+    {
+        font-size: 5vh;
+    }
+
+    .pro-projects .content .slide img
+    {
+        border-radius: 5vh;
+    }
+
+    .pro-projects .content .prev, .pro-projects .content .next
+    {
+        top: calc(50% - 1.5vh);
+        font-size: 3vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+
+    .pro-projects .content .dotsbox
+    {
+        bottom: 2vh;
+    }
+
+    .pro-projects .content .dotsbox .dot
+    {
+        width: 1.5vh;
+        height: 1.5vh;
+        border: 0.3vh solid #fff;
+        margin: 0 1vh;
+    }
+
+    .txt
+    {
+        letter-spacing: 0.3vh;
+        line-height: 3vh;
+    }
+
+    .txt h1
+    {
+        margin-bottom: 2vh;
+    }
+
+    .txt p
+    {
+        font-size: 2vh;
+    }
+}
+
+@-webkit-keyframes fade
+{
+    from
+    {
+        opacity: 0.8%;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0.8%;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+.txt
+{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 10%;
+    -webkit-animation-name: posi;
+    -webkit-animation-duration: 2s;
+    animation-name: posi;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
+@-webkit-keyframes posi
+{
+    from
+    {
+        left: 15%;
+    }
+
+    to
+    {
+        left: 10%;
+    }
+}
+
+@keyframes posi
+{
+    from
+    {
+        left: 15%;
+    }
+
+    to
+    {
+        left: 10%;
+    }
+}
+
+.txt h1
+{
+    color: #3498db;
+    font-weight: bold;
+}
+
+.txt p
+{
+    font-weight: bold;
+}
+
+.slider img
+{
+    transform: scale(1.2, 1.2);
+    -webkit-animation-name: zooming;
+    -webkit-animation-duration: 40s;
+    animation-name: zooming;
+    animation-duration: 40s;
+}
+
+@-webkit-keyframes zooming
+{
+    from
+    {
+        transform: scale(1, 1);
+    }
+
+    to
+    {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@keyframes zooming
+{
+    from
+    {
+        transform: scale(1, 1);
+    }
+
+    to
+    {
+        transform: scale(1.2, 1.2);
+    }
+}
